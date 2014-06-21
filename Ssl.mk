@@ -1,6 +1,6 @@
 local_c_flags :=
 
-local_c_includes := $(log_c_includes)
+local_c_includes := $(local_c_includes) $(LOCAL_PATH)/openssl
 
 local_additional_dependencies := $(LOCAL_PATH)/android-config.mk $(LOCAL_PATH)/Ssl.mk
 

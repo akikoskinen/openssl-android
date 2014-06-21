@@ -1,6 +1,6 @@
 local_c_flags :=
 
-local_c_includes := $(log_c_includes)
+local_c_includes := $(local_c_includes) $(LOCAL_PATH)/crypto $(LOCAL_PATH)/crypto/asn1 $(LOCAL_PATH)/crypto/evp $(LOCAL_PATH)/crypto/modes
 
 local_additional_dependencies := $(LOCAL_PATH)/android-config.mk $(LOCAL_PATH)/Crypto.mk
 
